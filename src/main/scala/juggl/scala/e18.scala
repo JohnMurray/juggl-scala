@@ -1,7 +1,7 @@
 package juggl.scala
-
 import scala.util._
-
+// Try
+// happy path programming
 object E18 {
 
   case class DbUser(name: String, age: Int, activeUser: Boolean)

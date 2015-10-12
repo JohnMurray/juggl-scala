@@ -1,12 +1,12 @@
 package juggl.scala
 
+// options
 object E6 {
-  val pairs = Map(
-    "one"   -> 1,
-    "two"   -> 2,
-    "three" -> 3,
-    "four"  -> 4
-  )
-
-  // println(pairs("four"))  => 4
+  def maybePrintNumber(): Unit = {
+    val maybeNumber: Option[Int] = maybeReturnInt()
+    
+    if (maybeNumber.isDefined) println(maybeNumber.get)
+    else println("None")
+  }
 }
+// go to 8

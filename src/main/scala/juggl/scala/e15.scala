@@ -1,5 +1,6 @@
 package juggl.scala
 
+// classes vs objects
 object E15 {
   class AuthenticatedUser(val name: String, val token: String) {
     import AuthenticatedUser._

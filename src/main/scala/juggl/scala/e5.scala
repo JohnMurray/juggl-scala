@@ -1,7 +1,12 @@
 package juggl.scala
 
+// methods!!
 object E5 {
   val message = "Hello, JUGGL!"
+
+  def welcomeMsg(name: String): String = {
+    "Hello, " + name
+  }
 
   def printMessage(msg: String) {
     println(message)

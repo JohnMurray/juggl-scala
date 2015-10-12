@@ -1,5 +1,6 @@
 package juggl.scala
 
+// matching + extracting
 object E9 {
   def maybePrintNumber(): Unit = {
     maybeReturnInt() match {

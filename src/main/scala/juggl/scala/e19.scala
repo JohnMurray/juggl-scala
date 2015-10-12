@@ -1,5 +1,6 @@
 package juggl.scala
 
+// for comprehensions / fall-through
 object E19 {
   import E18._
 

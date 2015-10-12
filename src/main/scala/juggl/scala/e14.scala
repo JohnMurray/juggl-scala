@@ -1,5 +1,6 @@
 package juggl.scala
 
+// nested matching
 object E14 {
   case class PartialUser(name: String, age: Option[Int])
 

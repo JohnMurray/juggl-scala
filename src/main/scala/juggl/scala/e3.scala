@@ -1,5 +1,6 @@
 package juggl.scala
 
+// mutable vs immutable
 object E3 {
   var myAge: Int = 25
   val ssn: String = "123-45-6789"

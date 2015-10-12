@@ -1,5 +1,6 @@
 package juggl.scala
 
+// functional functions!
 object E17 {
 
   val nums = List(1, 2, 3, 4)

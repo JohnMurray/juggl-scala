@@ -1,10 +1,14 @@
 package juggl.scala
 
+// maps are cool too
 object E7 {
-  def maybePrintNumber(): Unit = {
-    val maybeNumber: Option[Int] = maybeReturnInt()
-    
-    if (maybeNumber.isDefined) println(maybeNumber.get)
-    else println("None")
-  }
+  val pairs = Map(
+    "one"   -> 1,
+    "two"   -> 2,
+    "three" -> 3,
+    "four"  -> 4
+  )
+
+  // println(pairs("four"))  => 4
 }
+// go back to 5

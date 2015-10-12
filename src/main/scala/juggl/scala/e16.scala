@@ -1,5 +1,6 @@
 package juggl.scala
 
+// iterating with for
 object E16 {
 
   def for1(): Unit = {

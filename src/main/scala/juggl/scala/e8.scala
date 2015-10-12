@@ -1,5 +1,6 @@
 package juggl.scala
 
+// patterns are cool
 object E8 {
 
   def printNumber(num: Int): Unit = {
