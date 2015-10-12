@@ -1,5 +1,7 @@
 package juggl.scala
 
+import scala.util._
+
 object E18 {
 
   case class DbUser(name: String, age: Int, activeUser: Boolean)
