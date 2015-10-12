@@ -18,6 +18,7 @@ package object scala {
 
   def welcome {
     println("Intro to Scala\n")
+    println("https://github.com/JohnMurray/juggl-scala.git\n")
     println("John Murray")
     println("\tEnginner @ AppNexus (we serve ads)")
     println("\t@johnmurray_io")
